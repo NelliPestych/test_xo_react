@@ -1,0 +1,157 @@
+.main-desktop {
+  width: 500px;
+  height: 550px;
+  background-color: dimgrey;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.counter {
+  color: blanchedalmond;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.players input {
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  border-radius: 20%;
+  margin-top: 50px;
+}
+
+.players input:focus {
+outline: none;
+}
+
+.notification {
+  color: blanchedalmond;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tic-tac-toe {
+  width: 150px;
+  height: 150px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.ttt-grid {
+  width: 50px;
+  height: 50px;
+  border: 1px solid violet;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  background-color: indigo;
+  color: blanchedalmond;
+}
+
+.button-submit {
+  width: 250px;
+  height: 60px;
+  background-color: blueviolet;
+}
+
+.line-through {
+  display: inline-block;
+  width: 150px;
+  height: 5px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.line-through1 {
+  display: inline-block;
+  width: 150px;
+  height: 5px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  left: 0;
+  top: 75px;
+}
+
+.line-through2 {
+  display: inline-block;
+  width: 150px;
+  height: 5px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  left: 0;
+  top: 125px;
+}
+
+.line-through3 {
+  display: inline-block;
+  width: 5px;
+  height: 150px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  left: 22.5px;
+  top: 0;
+}
+
+.line-through4 {
+  display: inline-block;
+  width: 5px;
+  height: 150px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  left: 72.5px;
+  top: 0;
+}
+
+.line-through5 {
+  display: inline-block;
+  width: 5px;
+  height: 150px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  left: 122.5px;
+  top: 0;
+}
+
+.line-through6 {
+  display: inline-block;
+  width: 5px;
+  height: 212.13px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  top: -30px;
+  left: 72.5px;
+  transform: rotate(-45deg);
+}
+
+.line-through7 {
+  display: inline-block;
+  width: 5px;
+  height: 212.13px;
+  background-color: crimson;
+  border-radius: 20%;
+  position: absolute;
+  top: -30px;
+  left: 72.5px;
+  transform: rotate(45deg);
+}
